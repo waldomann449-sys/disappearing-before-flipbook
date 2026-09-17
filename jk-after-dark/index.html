@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#090a0c">
+  <meta name="description" content="一册以十二张影像编排的交互式 3D 翻页画册。">
+  <title>JK — After Dark / 3D 画册</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="experience" aria-label="JK After Dark 3D 翻页画册">
+    <header class="masthead">
+      <a class="wordmark" href="#book" aria-label="返回画册">JK<span>／</span>AFTER DARK</a>
+      <p class="edition">VOLUME 01 · 12 IMAGES</p>
+      <button class="soundless" id="resetBook" type="button" aria-label="合上画册">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h11.5a3.5 3.5 0 0 1 0 7H8m0 0 3-3m-3 3 3 3"/></svg>
+        <span>重置</span>
+      </button>
+    </header>
+
+    <section class="book-stage" id="book" aria-roledescription="3D 翻页画册" aria-label="使用左右按钮、键盘方向键或滑动翻页">
+      <div class="ambient ambient-one" aria-hidden="true"></div>
+      <div class="ambient ambient-two" aria-hidden="true"></div>
+      <div class="floor-shadow" aria-hidden="true"></div>
+      <div class="book-rig" id="bookRig">
+        <div class="book" id="bookObject">
+          <div class="book-spine" aria-hidden="true"></div>
+          <div class="page-block" aria-hidden="true"></div>
+
+          <article class="sheet cover-sheet" data-sheet="0">
+            <div class="page face front cover cover-front layout-cover">
+              <img src="assets/photos/photo-01.jpg" alt="人物身着白色外套倚靠在冷蓝色背景前">
+              <div class="cover-wash" aria-hidden="true"></div>
+              <div class="cover-type">
+                <h1>AFTER<br>DARK</h1>
+                <span>JUNG KOOK · 2026</span>
+              </div>
+              <div class="cover-mark">JK</div>
+            </div>
+            <div class="page face back paper-dark layout-editorial">
+              <img src="assets/photos/photo-02.jpg" alt="豹纹外套人物坐姿肖像">
+              <div class="page-copy copy-pink"><span>THE TEMPERATURE</span><b>02</b></div>
+            </div>
+          </article>
+
+          <article class="sheet" data-sheet="1">
+            <div class="page face front paper-ivory layout-tilted">
+              <div class="image-mat"><img src="assets/photos/photo-03.jpg" alt="抬手露出腕表的近距离横向肖像"></div>
+              <div class="margin-note"><b>LIME / 03</b><span>Closer than<br>the lens allows.</span></div>
+            </div>
+            <div class="page face back paper-black layout-window">
+              <img src="assets/photos/photo-04.jpg" alt="雨滴玻璃后的腕表肖像">
+              <div class="window-frame" aria-hidden="true"></div>
+              <p class="vertical-copy">NOCTURNE — WATCH THE LIGHT MOVE</p>
+            </div>
+          </article>
+
+          <article class="sheet" data-sheet="2">
+            <div class="page face front paper-cream layout-soft">
+              <img src="assets/photos/photo-05.jpg" alt="白色绒面外套与蓝色腕表的近景肖像">
+              <div class="soft-caption"><span>PORTRAIT STUDY</span><b>05</b></div>
+            </div>
+            <div class="page face back paper-charcoal layout-frame">
+              <div class="frame-photo"><img src="assets/photos/photo-06.jpg" alt="黑色衬衫与腕表的正面肖像"></div>
+              <div class="frame-copy"><span>BLACK SILK</span><p>A quiet frame before the pulse accelerates.</p></div>
+            </div>
+          </article>
+
+          <article class="sheet" data-sheet="3">
+            <div class="page face front paper-warm layout-crop">
+              <img src="assets/photos/photo-07.jpg" alt="白色背心近距离侧脸自拍">
+              <div class="crop-label">UNGUARDED<br><b>07</b></div>
+            </div>
+            <div class="page face back paper-blue layout-stage">
+              <img src="assets/photos/photo-08.jpg" alt="舞台上穿牛仔外套的表演瞬间">
+              <div class="stage-stripe"><span>LIVE</span><b>BODY / LIGHT / SOUND</b></div>
+            </div>
+          </article>
+
+          <article class="sheet" data-sheet="4">
+            <div class="page face front paper-ink layout-full">
+              <img src="assets/photos/photo-09.jpg" alt="蓝红舞台灯光中的演唱动作">
+              <div class="full-index">09</div>
+              <p class="full-copy">The page becomes a stage.</p>
+            </div>
+            <div class="page face back paper-indigo layout-poster">
+              <img src="assets/photos/photo-10.jpg" alt="高举麦克风的舞台人物全身照">
+              <div class="poster-type"><span>HIGH<br>VOLTAGE</span><b>10</b></div>
+            </div>
+          </article>
+
+          <article class="sheet" data-sheet="5">
+            <div class="page face front paper-white layout-gallery">
+              <img src="assets/photos/photo-11.jpg" alt="黑白香氛广告人物坐姿肖像">
+              <div class="gallery-copy"><b>MONOCHROME</b><span>Light reduced to its essential shape.</span></div>
+            </div>
+            <div class="page face back paper-teal layout-bokeh">
+              <img src="assets/photos/photo-12.jpg" alt="青色散景舞台前的黑色皮衣肖像">
+              <div class="bokeh-copy"><span>LAST LIGHT</span><b>12</b></div>
+            </div>
+          </article>
+
+          <article class="sheet cover-sheet" data-sheet="6">
+            <div class="page face front paper-black closing-page">
+              <p>TWELVE FRAMES.<br>ONE NIGHT IN MOTION.</p>
+              <div class="closing-rule" aria-hidden="true"></div>
+              <span>Turn once more to close the book.</span>
+            </div>
+            <div class="page face back cover cover-back">
+              <div class="back-mark">JK</div>
+              <p>AFTER DARK</p>
+              <span>AN INTERACTIVE PHOTO VOLUME</span>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <button class="edge-turn edge-prev" id="edgePrev" type="button" aria-label="上一页"></button>
+      <button class="edge-turn edge-next" id="edgeNext" type="button" aria-label="下一页"></button>
+    </section>
+
+    <nav class="controls" aria-label="画册导航">
+      <button class="nav-button" id="prevPage" type="button" aria-label="上一页">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+        <span>上一页</span>
+      </button>
+      <div class="progress-wrap" aria-live="polite">
+        <span class="progress-current" id="pageCurrent">封面</span>
+        <div class="progress-track" aria-hidden="true"><i id="progressBar"></i></div>
+        <span class="progress-total">14</span>
+      </div>
+      <button class="nav-button" id="nextPage" type="button" aria-label="下一页">
+        <span>下一页</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+      </button>
+    </nav>
+
+    <p class="hint" id="interactionHint">拖动书页或使用键盘 ← → 翻页</p>
+  </main>
+  <script src="book.js"></script>
+</body>
+</html>
