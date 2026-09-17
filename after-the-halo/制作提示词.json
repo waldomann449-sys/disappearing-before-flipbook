@@ -1,0 +1,169 @@
+{
+  "title": "AFTER THE HALO",
+  "subtitle": "光环之后",
+  "note": "下列为实际使用的完整制作提示词。提示词中的尺寸是生成请求，实际生成图稿为1536×1024像素；单页为768×1024像素。照片未经覆盖修改。",
+  "artworks": [
+    {
+      "artwork": "covers.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Create the final FLAT PRINT ARTWORK for TWO BOOK COVERS side by side for the experimental photobook AFTER THE HALO. Canvas EXACT 3:2 landscape, 3072 by 2048 or larger equivalent. A straight invisible vertical split exactly at 50% divides two 3:4 portrait panels. LEFT is BACK COVER; RIGHT is FRONT COVER. Fill the canvas edge to edge, no outside border, no visible book object, no book mockup, no tabletop, no camera perspective, no rendered book scene, no spine width, no gap, no bevel. This will be physically split into separate page textures.\nBoth panels are matching distressed matte black leather/fabric PRINT texture with offwhite rubbed scuffs and tiny flaking antique silver baroque corner ornaments. Precious old private collection but cold rebellious underground art direction; elegant restraint, sophisticated high contrast, lots of black negative space, detailed visible fibers. Tiny oxblood abrasion can accent. FRONT RIGHT: big striking typographic composition in top/central area, exact title on three lines 'AFTER' / 'THE' / 'HALO', large editorial serif letters, distressed silver foil impression, highly readable, expressive tight design. Add a narrow diagonal torn photographic eye fragment from the supplied blonde portrait, like a pasted archival remnant beneath or crossing title at mid height. Preserve the real original eye and hair, convert fragment monochrome, no new person's face, no invented body. Small bottom text exact 'AN ARCHIVE OF FRAGMENTS', tiny 'VOL. 01'. BACK LEFT: mostly darkness, one small broken silver circular ornamental seal placed slightly below center and exact short line 'NOTHING STAYS WHOLE.' in tiny restrained silver type underneath. No other words. Each panel needs outer scuffing and sparse edge filigree but absolutely no mockup geometry. Ultra detailed flattened print design, premium editorial experimental photobook artwork, no watermark.",
+      "source_filenames": [
+        "11aefe0c72e10657daf769b3f7f3590d.png"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-01.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Create ONE finished FLAT, edge-to-edge print artwork, an editorial photobook opening double-page spread for AFTER THE HALO. EXACT landscape 3:2 ratio; requested 3072 x 2048 pixels. It will be split at the exact vertical center into two portrait 3:4 pages. This is the actual printed page design, NOT a photograph or mockup of a book: no perspective, no visible book, no gutter crease, no desk, no surrounding margin, no cast shadow around canvas.\nInput 1 is supplied gothic cathedral photo; input 2 is old dark book/binding reference. Use their imagery as collage source.\nArt direction: cold rebellious conceptual collage with decayed baroque undertones, exquisite archival material, restrained opening spread. Base is beautifully worn bone-white paper with subtle fiber and uneven aged tonality, mainly pale. On LEFT half, a huge cropped nearly invisible black lace frame fragment entering from upper left, one torn monochrome cathedral photograph in lower left quarter with worn paper edge, tiny archival number '001' near bottom. A small narrow leather-binding rubbing/fragment from input 2 near far left edge. Generous breathing space across left-center. On RIGHT half, enormous confident black serif typography precisely reading on three stacked lines 'AFTER' / 'THE' / 'HALO', aligned from x=57% to 92%, spanning y=25% to 63%. Beautiful high-contrast editorial serif, slightly distressed letterpress edges. Beneath in small widely tracked sans serif: 'AN ARCHIVE OF FRAGMENTS'. Tiny 'VOL. I' beneath near bottom right. Fine black lace and engraved baroque ornament fragments only at outside edges, asymmetrical, abrupt crops. Editorial sophistication and powerful scale contrast, never scrapbook cute.\nCritical production rules: no important image or type in central x=46%-54% strip; continuous pale paper there. Both pages form intentional independent compositions. All text exactly spelled, no additional text, no watermark. Texture quiet and credible; no ubiquitous white scratch debris, no excessive stains. Palette ink-black and cold bone with minimal faded taupe. Print-ready detail.",
+      "source_filenames": [
+        "a1afb4f0b3b4bbcb9ee0116a704a9bb6.jpg",
+        "0652b8c1f090f632ad4d3cc6e9db56f3.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-02.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Make ONE finished edge-to-edge FLAT print art for an experimental art photobook double-page spread named AFTER THE HALO. Exact landscape 3:2 ratio, highest possible resolution preferably 3072x2048. Two portrait pages will be split at center x=50%. No book mockup, no perspective, no central crease or gutter shadow, no surrounding desk.\nInputs: 1 supplied person seated in pink embroidered Chinese historical dress is source for a SINGLE eye/eyebrow photographic fragment and for pink flower hair ornament cutout; keep exact original eye likeness and flower character, do not invent another person. 2 supplied gothic cathedral is architectural source. 3 old-book photograph supplies binding texture.\nComposition: Dense but disciplined archival collage on LEFT half: enormous ancient manuscript leaf with only faded illegible ink as authentic found texture, overlapping worn paper strips, one isolated clean horizontal eye photograph cut from input 1 located in upper-left quadrant x12-39% y20-32%, flowers from that person's headdress cut into a delicate botanical scrap at x22-43% y52-76%. A dark leather binding strip from input 3 near leftmost edge. Long angular torn paper overlaps, credible edge thickness and small soft local collage shadows. One oxblood red diagonal scrap peeks from behind manuscript, a little muted dusty pink in flower; otherwise ink black and ivory. Small spaced uppercase 'RELIC' at x8% y8%; tiny 'I / 002' bottom left.\nRIGHT half contrasting quiet composition: single very tall cathedral rose-window and arch image based on input2, treated as engraved soot-black etching on pale paper, at x64-89% y15-84%, framed by large vacant cold ivory margins. Three black editorial rule fragments around image. One tiny label 'REMNANTS OF A NAME' near bottom right.\nStyle: underground editorial art, cold rebellious high contrast, a physical archive dismantled, decayed baroque secondarily, muted bone paper and coal black. Fine analog grain without generic grunge covering everything. Beautiful hierarchy, not symmetrical, not cute scrapbook, not horror. No other faces, no invented persons, no hands. Preserve central strip x46-54% free of type, eyes and focal elements. All exact text readable, no extra text beyond specified labels; manuscript only texture. Every element flush in a FLAT page graphic.",
+      "source_filenames": [
+        "4c80d442908f6f4e8a7e36eda5e23a2d.jpg",
+        "a1afb4f0b3b4bbcb9ee0116a704a9bb6.jpg",
+        "0652b8c1f090f632ad4d3cc6e9db56f3.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-03.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Create ONE museum-quality experimental editorial photomontage as FLAT full-bleed printed double-page spread for AFTER THE HALO. EXACT landscape 3:2 ratio. Please produce 4K-detail at 3072x2048 if possible. Split is at x=50%, each half a 3:4 portrait page. NO photographed book, no desk, no book mockup, no camera perspective, no gutter crease, no external border or canvas shadow.\nReference images: 1 actual supplied person in pink Chinese historical dress standing beside wood pillar; preserve original facial likeness, black hair, adornments, neck pearls and posture inside retained photographic pieces. 2 cathedral architectural photograph. 3 public-domain Hieronymus Bang silverwork ornamental engraving, incorporate a small authentic curling foliage/bird fragment as found paper ornament.\nLEFT page x0-50%: create a powerful near-monochrome sculptural paper photomontage. Person from input1 appears from head to chest inside three long irregular vertical photographic strips, deliberately offset only subtly, all on x8-40% so face does not cross center. Face expressive and unmistakably derived from original; no new person. Crop out wooden pillar, replace it with enormous cathedral arch fragments from input2. Bold jagged black paper silhouettes interleave with chalk-white photographic silhouettes, as if cut by hand and mounted on cold charcoal paper. A single pale curled-leaf fragment from input3 peeks from behind image at lower left, restrained but visible. Tiny faded pink only within one clothing scrap, 97% black-white-silver grayscale. Raw confident art direction, slight analog grain and a few real tear fibers, large uninterrupted shapes, not generic grunge.\nRIGHT page x50-100%: near-total rich matte black void with quiet paper fibers; at x77% y41% one tiny isolated torn oval photographic fragment of the original hair flowers, in white-gray, occupying only 7% canvas width; beneath at x67% y65% modest but readable lowercase offwhite serif exactly 'keep the fracture.' At far bottom right a tiny numeral '003'. This right half should feel radical, sparse, quiet, 90% negative space.\nImportant: clean middle x46%-54% dark and free of text or focal content. Distinct halves intended as facing pages, no seam drawn. No extra text. No horror, no wounds or damage to a person; all fragmentation explicitly paper photo collage. Not cute scrapbook. Crisp print detail, asymmetrical composition, profound scale contrast.",
+      "source_filenames": [
+        "aa2efb850c6317f14b5ef6d2277e4eb6.jpg",
+        "a1afb4f0b3b4bbcb9ee0116a704a9bb6.jpg",
+        "met-silverwork-423380.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-04.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. ONE flat finished double-page art photobook spread, edge-to-edge, exact 3:2 landscape ratio, preferably 3072x2048 pixels. This is actual print art, no book mockup, no border around a book, no perspective, no desk, no visible middle seam. It will be split at center into two 3:4 portrait pages. AFTER THE HALO editorial sequence, page spread 004: a visual breath after dense rebellious collage.\nSource 1 supplied blackwhite photograph of fog-shrouded cliff path with wooden railing and conifer silhouettes. It is the dominant real photograph, preserve its recognizable cliff, railing and tree arrangement, render it as a large generous continuous silver-gelatin image covering x21%-100% and full height. Compose the darkest path and rock at x22-40%, hazy trees on right half x62-81%, far right opens into huge pale silvery blank fog. Shift/crop source arrangement as needed so NO important tree or railing ends at the center x46-54%. Photographic image should breathe; retain original soft, atmospheric detail, no invented buildings or people.\nSource2 supplied seated person in Chinese pink embroidered clothing: take ONLY a small believable rectangular torn photographic crop of the person's resting hand at lower right of original and pink/black embroidery of adjacent sleeve. Keep anatomy faithful, five fingers only when visible, use actual existing hand crop; never invent hands. Paste this fragment at lower LEFT x3%-19%, y69%-90%, on a narrow parchment panel running x0%-21% full height. The parchment panel's right edge is torn diagonally, aged ivory with subtle pale gray fibers, not yellow. A thin small muted-pink embroidery scrap sits partly beneath hand fragment. The hand photograph should remain a clearly bounded paper photograph, not a detached anatomical hand.\nSparse exact type on parchment left: upper left x4% y10%, small black monospaced two lines 'MEMORY' / '004'. At bottom under hand, a small thin horizontal black rule. No other words.\nOverall palette black, smoky silver, offwhite; just one dusty pink tiny accent. Museum editorial taste, cinematic and contemplative, huge empty fog, 65% quiet negative space. No lace, no repeated scratches, no manuscript debris, no flowers, no frames. Fine film grain only, believable cut paper edge, subtle collage contact shadow. Distinct from dense earlier spreads, radical stillness. Critical no type/faces/hands in central 8% gutter strip, no gutter line.",
+      "source_filenames": [
+        "1161ad3e273e94159ef8996913cc7c89.jpg",
+        "4c80d442908f6f4e8a7e36eda5e23a2d.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-05.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Finished double-page print artwork for experimental art photobook AFTER THE HALO. EXACT landscape 3:2 aspect ratio, high resolution 3072x2048 or greater, flat edge-to-edge artwork, NOT a photograph or mockup of a book.\nInput 1 is the original brown-haired black-dress portrait to cut up; retain identifiable original facial features, hair, clothing and raised arms as photo fragments. Input 2 is original black corset lace/ribbons/cross, used as collage material. Preserve the photographed people; no invented people.\nArt direction: cold rebellious underground art zine, high contrast monochrome, brutal hand-torn analog photographic collage and enlarged coarse grain, secondary decayed baroque mood, aged ivory stock, ink-black charcoal worn silver, one tiny oxblood accent. Convincing real print texture and translucent tracing-paper layers, tactile but flat scan.\nComposition: landscape double spread with vertical split at x=50%; reserve x=46%-54% without vital text or faces so it divides into two portrait leaves. LEFT half is a radical chapter opener with very large distressed condensed grotesk typography arranged three lines 'FRAC' / 'TURE' / 'II', close-cropped but exact FRACTURE readable across first two lines. Mostly ivory left paper with black type and two sharp slashes of black photographic lace near margins, breathing space. RIGHT half: one dominant jagged portrait fragment from input 1, face in upper-right area (x=75%,y=33%), offset strips of hair and raised arms, black dress torso in lower area, irregular black lace cuttings from input 2 and translucent angular paper. Strong diagonal composition. No house or air conditioner background. One tiny editorial label 'AFTER THE HALO' at bottom left. No other readable text.\nConstraints: Never draw a physical book, no tabletop, no perspective, no bent page, no crease or gutter shadow, no decorative border, no added flowers, no new faces, no repetitive small scraps. Keep lighting inherent to source photos, grade into forceful silver-black monochrome. Entire rectangular canvas is print artwork.",
+      "source_filenames": [
+        "5966a950be26f5abfcf8d15d748b22ca.png",
+        "1dd35cd64726556c1b36d74d1f31f3a6.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-06.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Make a finished experimental art photobook double-page print artwork, landscape 3:2 canvas, high resolution 3072x2048 requested. Flat edge-to-edge scan-like design, never a book mockup.\nInput 1: original silver-blond portrait with black choker and small red phone. These are actual photos to cut and collage, retain original photographed face, hair, eyes, hands, black garment, phone, and original pose in recognizable fragments; no invented models. Input 2: Gothic church interior with bright pointed window, use as dark architectural photographic fragment.\nArt direction for AFTER THE HALO: cold forceful silver-black underground zine collage, scratched photographic grain and distressed ivory paper, hand-torn hard angular edges, no warm sepia, no gold. Rebellious and editorial, secondary haunted gothic atmosphere.\nComposition: DOUBLE SPREAD with split at x=50%, reserve x=46%-54% for texture only with no eyes/text/phone. Deconstruct the original blond portrait into THREE huge offset torn photographic strips: one eye and sweeping silver hair enlarged across LEFT upper half, stark cathedral pointed window as long dark diagonal under it across lower left; the original face/nose/mouth and torso are in two offset strips on the RIGHT half, face around x=75% y=35%, hand and phone around x=80% y=68%. Strong diagonal cuts and beautiful uncoated paper margins, emphatic scale. Small red phone in original oxblood color is the only saturated element, everything else monochrome. Include sparse broken registration marks. Exact tiny typewriter text at bottom-left 'Nothing stays whole.' No additional text.\nDo not show a whole intact rectangular portrait. The three offset torn strips must physically separate facial alignment. Balance one large eye crop left and one recognizable mouth/face fragment right. Avoid numerous tiny scraps. No home decor, no cushion, no invented objects or people. Never physical crease, gutter shadow, tabletop, perspective, curved paper, borders, or fake book pages. Entire rectangle is printable art.",
+      "source_filenames": [
+        "11aefe0c72e10657daf769b3f7f3590d.png",
+        "9df093084991a1b5aef62585e0f4e040.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-07.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Design the most intense double-page spread of AFTER THE HALO art photobook. Exact 3:2 landscape flat printable collage. Request 3072x2048 high resolution; entire canvas artwork, not a mockup.\nInput images are original photographs to physically cut into collage fragments: 1 black lace corset with ribbons, pearls and cross; 2 brown-haired blackdress portrait; 3 silver-blond portrait holding red phone; 4 Gothic cathedral stone facade. Keep source photographed face identity/features, architecture and lace recognizable; use no invented people.\nStyle: radical cold rebellious monochrome underground art publication, brutal analog photo collage with silver gelatin grain, black printer ink, distressed silvery white paper edges, dark baroque secondary mood. Dense maximalism but ART DIRECTED, 7 to 10 forceful large fragments not confetti. Palette 85% black, rest silver gray/ivory; two tiny oxblood marks.\nComposition: deliberate asymmetry. LEFT half has one enormous focal slanted crop from the brown-haired face, only one eye, nose, mouth and hair visible, centered x=26% y=39%; mask out the rest of head into torn black. Lace ribbons cross diagonally under it; original blond hands with phone excluded float near lower-left margin. RIGHT half is a dramatic towering rotated Gothic facade strip against black, with the source silver cross hanging at x=85%, y=37% and a huge sharply torn silver-blond eye strip at lower-right. This is emotionally aggressive photomontage, not clean portraits. Fractured white paper slivers and rough black overprint bind the composition. Keep x=46%-54% central gutter free of face, eye, cross, and text; only lace texture can cross.\nTypography: exactly 'CUT' bold torn white type on black at upper-left, 'KEEP' around right upper-middle, 'FORGET' at bottom-left, separate short typography fragments in varying brutal condensed grotesk widths. No other text. Type supports collage instead of overwhelming it.\nDo not create new pose or fingers. Hands must be taken as photographic fragments from source 3. No gore. No physical book, no tabletop, no perspective, no mockup, no crease or gutter shadow, no ornamental frame, no neat grid, no repeating tiny scrapbook scraps. Finish as a rare rebellious vintage zine scan with visibly torn edges inside, full bleed rectangle outside.",
+      "source_filenames": [
+        "1dd35cd64726556c1b36d74d1f31f3a6.jpg",
+        "5966a950be26f5abfcf8d15d748b22ca.png",
+        "11aefe0c72e10657daf769b3f7f3590d.png",
+        "a1afb4f0b3b4bbcb9ee0116a704a9bb6.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-08.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Finished landscape 3:2 double-page flat print artwork for AFTER THE HALO experimental photobook. High resolution 3072x2048 requested. This spread is a RESTRAINED AFTERMATH after several dense radical collages.\nInputs: 1 original black old-books photograph with rosary cross; 2 original candles reflected in ornate baroque mirror; 3 original silver-blond portrait. Treat as source photos to crop/grade and collage. Preserve the objects and face appearance from original sources; do not invent people.\nArt direction: cold rebellious art zine becomes hushed spectral archive. Charcoal-black, cold silver, ivory paper. Fine paper fibers and sparse faint abrasions, very controlled. No warm yellow sepia or gold.\nComposition: vertical division at EXACTLY x=50%, so image divides into two portrait 3:4 pages. LEFT half almost entirely pale old ivory paper with huge unprinted negative space, NOT a dark collage. Place a slender vertical torn black photographic strip of input 1 old book spines/cross, width 13% of total canvas and height 62%, at x=14%-27%, y=17%-79%. Slightly off-axis, not straight grid. At x=31%-40% y=61%-71%, place one small jagged silver-blond eye and cheek fragment from input 3, isolated, no entire head. A tiny '08' low left. RIGHT half deep matte black, enlarge original candle cluster and its mirror reflection as one generous scale black-and-white photograph with softly lost edges, recognizable ornate mirror along far right and silver flames around y=30%-60%. Position bright candles away from center split, mostly x=66%-94%. Deep empty black above candles. Exact small letterspaced off-white 'AFTERIMAGE' lower-right at x=72%, y=91%. No other text.\nCentral x=46%-54% area must have only black/ivory texture, no vital subject or text. Left-to-right division is clean flat ink transition with minimal irregular paper edge, never fold shadow. Full bleed rectangle print design. No tabletop, no perspective, no physical book mockup, no curved paper, no border. Do not fill the negative space, do not add ornamental frames, no piles of scraps, no invented candles. Visual purpose is silence and breathing room.",
+      "source_filenames": [
+        "0652b8c1f090f632ad4d3cc6e9db56f3.jpg",
+        "17f1ce0237fb256750e4be054868e2f2.jpg",
+        "11aefe0c72e10657daf769b3f7f3590d.png"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-09.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Asset: a premium experimental photographic collage DOUBLE PAGE print spread for AFTER THE HALO. Create EXACT landscape3:2 artwork, ideally3072x2048. This flat canvas will be cut at the exact vertical midpoint into two3:4 pages. Edge-to-edge FLAT artwork, no book object, no mockup, no table, no perspective, no spine, no fold/shadow at center. Both pages should read separately and also as one continuous composition; keep faces and typography away from center.\nUse input1 Chinese costume portrait as original photographic fragments; preserve original recognizable facial features, eye and black hair/flower details within surviving fragments. Use input2 baroque staircase as dark architectural image layer. Compose a ghostly dark dream: a LARGE torn angular fragment of the portrait's eye, cheek and flowers hovers at upper left, pale photographic skin with subtle gray grain, parts of image vanish under ripped charcoal-black rectangular papers and translucently printed mist. Let photographic fragments overlap a stair section which rises across lower left toward the right; broad right page is predominantly dark smoky architectural depth with one beam of silver-white light near upper outer right. Faint oxblood ink only in a small seam or paper edge. Strong paper-cut geometry, restrained visible fiber edges, embossed shadow only for tiny collage paper thickness, not scene lighting. Original photos transformed to cold near-monochrome, unsentimental editorial dada collage + decayed baroque, not fantasy illustration. Palette inkblack, ivory, silvergray with tiny red accent. Alternation of rough torn opaque planes and translucent haze, good breathing room. Typography: exact words 'THE ROOM' in small spaced cream sans on the left lower outer third; 'REMEMBERS' in modest wider serif letters on right lower third. Do not add additional words, invented people, markings, frames, ornamental border, faux Japanese lettering, or text at center. Rich final printed artwork quality.",
+      "source_filenames": [
+        "aa2efb850c6317f14b5ef6d2277e4eb6.jpg",
+        "f68d9df93ea526ac7d4633e90136388c.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-10.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Asset: flat print DOUBLE-PAGE spread10 of experimental photobook AFTER THE HALO. Exact3:2 landscape, ideally3072x2048. No book rendering, no book object or perspective, no tabletop, no gutters or center fold; artwork covers whole rectangular canvas. It will be split at the vertical midpoint into two portrait3:4 pages. Composition must work separately on either side; words must sit well within right half.\nInput1 original cathedral interior supplies a magnificent towering Gothic vault and luminous window: preserve its photographic essence, printed in cold cinematic monochrome. Input2 candle photo supplies isolated candles and their mirror reflection. Input3 modern brown-haired person's portrait supplies raised-arm silhouette and little facial outline; use original person, no new face. Build a dramatic but restrained near-full-bleed cinematic spread: cathedral's vaulted column rhythm occupying whole left three-fifths, perspective window in left page upper-middle, smoky silver beam fading toward charcoal low corners. At far right lower middle collage a BLACK silhouette of the original modern portrait's raised arms and head, no body emphasis, mostly black ink silhouette with one subtle eye sliver. Candles from input2 make a ghostly small cluster across lower quarter on right, integrated as photographic torn remnants, NOT a literal person standing inside church. One single bone-white VERTICAL paper strip near right outer edge interrupts darkness, heavily torn but minimal, and one fine oxblood rule. Keep other textures refined and photographic, avoid covering everything with scratched distress, no decorative frame. A small elegant italic line on a quiet area at lower right exact 'leave the light behind.' No other words. Haunting image-led editorial collage, cold rebellious art book, beauty in shadow and proportion, darkbaroque support not costume fantasy.",
+      "source_filenames": [
+        "9df093084991a1b5aef62585e0f4e040.jpg",
+        "17f1ce0237fb256750e4be054868e2f2.jpg",
+        "5966a950be26f5abfcf8d15d748b22ca.png"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "artwork": "spread-11.png",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: compositing. Flat print final CLOSING COLOPHON AND ENDPAPER art for AFTER THE HALO. Landscape EXACT3:2, ideally3072x2048. Canvas will be split at midpoint into two3:4 portrait pages. FLAT EDGE-TO-EDGE PRINT ARTWORK, no photographed book or mockup, no gutter or centerfold, no perspective, no paper outside rectangle, no tabletop. Two quiet mostly bone-ivory paper areas together. Calm breathing space after a dark rebellious art photobook.\nLEFT HALF colophon: natural slightly gray bone handmade paper, fine cellulose fibers, restrained age speckles and one scuffed outer corner. In upper-middle left-half place one SMALL horizontal torn photographic rectangle (about28% canvas width x20% canvas height) cropped from input1 foggy trees and cliff railing. Preserve photographic monochrome scene, cloudy pale top, darkest trees at left. Broad margin all around. Below this image centered on the left panel exact title 'AFTER THE HALO' in restrained elegant letterspaced serif 1line. Beneath title a small serif colophon with EXACT separate lines:\n'An archive of fragments.'\n'Original photographs, reassembled.'\n'MMXXVI'\nNo other words or numbers. Keep everything in left half.\nRIGHT HALF endpaper: mostly EMPTY ivory, subtle ghost impressions of input2 black lace along far outer right edge and lower-right quarter, lace fades gently toward center. At lower outer right one small cutout of the Chinese costume floral hair ornaments from input3, reproduced as gray ink photocopy like a dried archival flower fragment, NO face or human figure. One exceptionally thin oxblood red thread meanders very slightly upward near outer third, loose small curl near flower. Elegant sparse composition, no busy distress, no huge botanical art, no faux Asian lettering, no decorative frame, no full page border. This is archival-paper graphic collage and final book art, not a photo of objects.",
+      "source_filenames": [
+        "1161ad3e273e94159ef8996913cc7c89.jpg",
+        "1dd35cd64726556c1b36d74d1f31f3a6.jpg",
+        "4c80d442908f6f4e8a7e36eda5e23a2d.jpg"
+      ],
+      "native_dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ]
+}
