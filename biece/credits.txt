@@ -1,15 +1,20 @@
-别册 · 酸奶猫猫球
+BIECE · Yogurt Kitty Ball
 
-客户照片：用户提供的10张照片。
-网络补充照片：
+English revision: 19 September 2026
+The front cover retains its original Chinese lettering. The interior pages, back cover and reader interface are in English.
+
+Client photographs: Ten photographs supplied for this book.
+Additional photographs:
 
 A row of colorful macaroons on a pink background — Büşra İnce / Unsplash
 https://unsplash.com/photos/a-row-of-colorful-macaroons-on-a-pink-background--L3SFDGnU-Y
-许可：https://unsplash.com/license
+License: Unsplash License
+https://unsplash.com/license
 
 Colorful Flowers Bouquet — casper somia / Pexels
 https://www.pexels.com/photo/colorful-flowers-bouquet-21775078/
-许可：https://www.pexels.com/license/
+License: Pexels License
+https://www.pexels.com/license/
 
-纸艺封面背景：AI生成；人物照片未用AI重绘。
-翻页组件：StPageFlip (MIT)，见 vendor/PAGE-FLIP-LICENSE。
+Paper-art cover background: AI-generated. The client portraits were not redrawn with AI.
+Page-turning component: StPageFlip, released under the MIT License. See vendor/PAGE-FLIP-LICENSE.

@@ -43,15 +43,15 @@ function updateControls() {
   previousButton.disabled = currentPage === 0 || isTurning;
   nextButton.disabled = currentPage >= lastPage || isTurning;
   autoButton.setAttribute('aria-pressed', String(autoPlaying));
-  autoButton.setAttribute('aria-label', autoPlaying ? '暂停自动翻页' : currentPage >= lastPage ? '从封面开始自动翻页' : '开始自动翻页');
-  autoLabel.textContent = autoPlaying ? '暂停翻页' : currentPage >= lastPage ? '再看一遍' : '自动翻页';
+  autoButton.setAttribute('aria-label', autoPlaying ? 'Pause automatic page turning' : currentPage >= lastPage ? 'Start automatic page turning from the cover' : 'Start automatic page turning');
+  autoLabel.textContent = autoPlaying ? 'Pause' : currentPage >= lastPage ? 'Read again' : 'Auto flip';
   const number = String(currentPage + 1).padStart(2, '0');
   const count = String(pages.length).padStart(2, '0');
-  pageStatus.textContent = currentPage === 0 ? `封面 · ${number} / ${count}`
-    : currentPage >= lastPage ? `封底 · ${number} / ${count}`
+  pageStatus.textContent = currentPage === 0 ? `Front · ${number} / ${count}`
+    : currentPage >= lastPage ? `Back · ${number} / ${count}`
     : portrait ? `${number} / ${count}`
     : `${number}—${String(Math.min(currentPage + 2, pages.length)).padStart(2, '0')} / ${count}`;
-  orientationStatus.textContent = autoPlaying ? '正在自动翻阅' : portrait ? '单页阅读' : '双页展开';
+  orientationStatus.textContent = autoPlaying ? 'Turning automatically' : portrait ? 'Single page' : 'Two-page spread';
   document.querySelector('#progress-fill').style.transform = `scaleX(${(currentPage + 1) / pages.length})`;
   document.querySelector('#book-progress').setAttribute('aria-valuenow', String(currentPage + 1));
   document.querySelector('#book-progress').setAttribute('aria-valuetext', pageStatus.textContent);
@@ -171,10 +171,10 @@ fullScreenButton.addEventListener('click', async () => {
   try {
     if (document.fullscreenElement) await document.exitFullscreen();
     else await document.documentElement.requestFullscreen();
-  } catch { showMessage('当前浏览器未能进入全屏，可以继续正常翻阅。'); }
+  } catch { showMessage('Full screen is unavailable in this browser. You can keep reading here.'); }
 });
 document.addEventListener('fullscreenchange', () => {
-  const text = document.fullscreenElement ? '退出全屏' : '全屏阅读';
+  const text = document.fullscreenElement ? 'Exit full screen' : 'Read in full screen';
   fullScreenButton.setAttribute('aria-label', text);
   fullScreenButton.setAttribute('title', text);
   resizeReader();
@@ -182,7 +182,7 @@ document.addEventListener('fullscreenchange', () => {
 
 const imagePromises = [...bookElement.querySelectorAll('img')].map(img => new Promise(resolve => {
   const finish = ok => {
-    if (!ok) { errorCount++; showMessage('有一页暂时未能载入，请刷新后再试。'); }
+    if (!ok) { errorCount++; showMessage('A page could not load. Please refresh and try again.'); }
     resolve(ok);
   };
   if (img.complete) finish(img.naturalWidth > 0);

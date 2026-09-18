@@ -1,76 +1,76 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#f7f3ed">
-  <title>别册 · 酸奶猫猫球</title>
-  <meta name="description" content="酸奶猫猫球的私人影像别册。拖动页角，翻阅那些被收藏的日常。">
+  <title>BIECE · Yogurt Kitty Ball</title>
+  <meta name="description" content="A personal photo scrapbook by Yogurt Kitty Ball. Drag a page corner to explore everyday moments worth keeping.">
   <link rel="canonical" href="https://waldomann449-sys.github.io/disappearing-before-flipbook/biece/">
-  <meta property="og:title" content="别册 · 酸奶猫猫球">
+  <meta property="og:title" content="BIECE · Yogurt Kitty Ball">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://waldomann449-sys.github.io/disappearing-before-flipbook/biece/">
-  <meta property="og:description" content="把喜欢的片刻，留在这里。一本可以亲手翻阅的彩色剪贴簿。">
-  <meta property="og:image" content="https://waldomann449-sys.github.io/disappearing-before-flipbook/biece/cover.jpg">
+  <meta property="og:description" content="A colorful scrapbook of favorite moments, made to leaf through at your own pace.">
+  <meta property="og:image" content="https://waldomann449-sys.github.io/disappearing-before-flipbook/biece/cover.jpg?v=en1">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23ece4f3'/%3E%3Cpath d='M9 6h14v20H9zM12 6v20' fill='none' stroke='%23645479' stroke-width='1.5'/%3E%3C/svg%3E">
-  <link rel="preload" href="assets/page-00.webp" as="image">
-  <link rel="stylesheet" href="styles.css?v=20260918">
+  <link rel="preload" href="assets/page-00.webp?v=en1" as="image">
+  <link rel="stylesheet" href="styles.css?v=en1">
 </head>
 <body>
 <main class="room">
   <header class="book-header">
-    <div class="identity"><h1>别册</h1><span>酸奶猫猫球</span></div>
+    <div class="identity"><h1>BIECE</h1><span>Yogurt Kitty Ball</span></div>
     <div class="actions">
-      <button id="autoplay" class="auto-button" type="button" aria-pressed="false" aria-label="开始自动翻页">
+      <button id="autoplay" class="auto-button" type="button" aria-pressed="false" aria-label="Start automatic page turning">
         <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 10 7-10 7z"/></svg>
         <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
-        <span id="autoplay-label">自动翻页</span>
+        <span id="autoplay-label">Auto flip</span>
       </button>
-      <a class="icon-button pdf-link" href="book.pdf" download="别册_电子画册.pdf" aria-label="下载PDF电子画册" title="下载PDF电子画册">PDF</a>
-      <button class="icon-button" id="fullscreen" type="button" aria-label="全屏阅读" title="全屏阅读"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
+      <a class="icon-button pdf-link" href="book.pdf?v=en1" download="BIECE_Photobook.pdf" aria-label="Download the PDF photobook" title="Download the PDF photobook">PDF</a>
+      <button class="icon-button" id="fullscreen" type="button" aria-label="Read in full screen" title="Read in full screen"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></svg></button>
     </div>
   </header>
-  <section class="stage" aria-label="别册翻页画册" aria-describedby="reading-hint">
+  <section class="stage" aria-label="BIECE interactive photobook" aria-describedby="reading-hint">
     <div class="book-rig">
       <div id="book" class="book" data-page-width="464" data-page-height="638" data-edge="front">
-        <article class="book-page" data-density="hard" aria-label="封面"><img src="assets/page-00.webp" width="800" height="1100" alt="别册，酸奶猫猫球，封面" decoding="async" fetchpriority="high" draggable="false"></article>
-        <article class="book-page" aria-label="第 2 页"><img src="assets/page-01.webp" width="800" height="1100" alt="别册，第 2 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 3 页"><img src="assets/page-02.webp" width="800" height="1100" alt="别册，第 3 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 4 页"><img src="assets/page-03.webp" width="800" height="1100" alt="别册，第 4 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 5 页"><img src="assets/page-04.webp" width="800" height="1100" alt="别册，第 5 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 6 页"><img src="assets/page-05.webp" width="800" height="1100" alt="别册，第 6 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 7 页"><img src="assets/page-06.webp" width="800" height="1100" alt="别册，第 7 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 8 页"><img src="assets/page-07.webp" width="800" height="1100" alt="别册，第 8 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 9 页"><img src="assets/page-08.webp" width="800" height="1100" alt="别册，第 9 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 10 页"><img src="assets/page-09.webp" width="800" height="1100" alt="别册，第 10 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 11 页"><img src="assets/page-10.webp" width="800" height="1100" alt="别册，第 11 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 12 页"><img src="assets/page-11.webp" width="800" height="1100" alt="别册，第 12 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 13 页"><img src="assets/page-12.webp" width="800" height="1100" alt="别册，第 13 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 14 页"><img src="assets/page-13.webp" width="800" height="1100" alt="别册，第 14 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 15 页"><img src="assets/page-14.webp" width="800" height="1100" alt="别册，第 15 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 16 页"><img src="assets/page-15.webp" width="800" height="1100" alt="别册，第 16 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 17 页"><img src="assets/page-16.webp" width="800" height="1100" alt="别册，第 17 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 18 页"><img src="assets/page-17.webp" width="800" height="1100" alt="别册，第 18 页" decoding="async" draggable="false"></article>
-        <article class="book-page" aria-label="第 19 页"><img src="assets/page-18.webp" width="800" height="1100" alt="别册，第 19 页" decoding="async" draggable="false"></article>
-        <article class="book-page" data-density="hard" aria-label="封底"><img src="assets/page-19.webp" width="800" height="1100" alt="别册，封底" decoding="async" draggable="false"></article>
+        <article class="book-page" data-density="hard" aria-label="Front cover"><img src="assets/page-00.webp?v=en1" width="800" height="1100" alt="BIECE by Yogurt Kitty Ball, front cover" decoding="async" fetchpriority="high" draggable="false"></article>
+        <article class="book-page" aria-label="Page 2"><img src="assets/page-01.webp?v=en1" width="800" height="1100" alt="BIECE, page 2" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 3"><img src="assets/page-02.webp?v=en1" width="800" height="1100" alt="BIECE, page 3" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 4"><img src="assets/page-03.webp?v=en1" width="800" height="1100" alt="BIECE, page 4" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 5"><img src="assets/page-04.webp?v=en1" width="800" height="1100" alt="BIECE, page 5" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 6"><img src="assets/page-05.webp?v=en1" width="800" height="1100" alt="BIECE, page 6" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 7"><img src="assets/page-06.webp?v=en1" width="800" height="1100" alt="BIECE, page 7" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 8"><img src="assets/page-07.webp?v=en1" width="800" height="1100" alt="BIECE, page 8" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 9"><img src="assets/page-08.webp?v=en1" width="800" height="1100" alt="BIECE, page 9" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 10"><img src="assets/page-09.webp?v=en1" width="800" height="1100" alt="BIECE, page 10" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 11"><img src="assets/page-10.webp?v=en1" width="800" height="1100" alt="BIECE, page 11" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 12"><img src="assets/page-11.webp?v=en1" width="800" height="1100" alt="BIECE, page 12" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 13"><img src="assets/page-12.webp?v=en1" width="800" height="1100" alt="BIECE, page 13" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 14"><img src="assets/page-13.webp?v=en1" width="800" height="1100" alt="BIECE, page 14" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 15"><img src="assets/page-14.webp?v=en1" width="800" height="1100" alt="BIECE, page 15" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 16"><img src="assets/page-15.webp?v=en1" width="800" height="1100" alt="BIECE, page 16" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 17"><img src="assets/page-16.webp?v=en1" width="800" height="1100" alt="BIECE, page 17" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 18"><img src="assets/page-17.webp?v=en1" width="800" height="1100" alt="BIECE, page 18" decoding="async" draggable="false"></article>
+        <article class="book-page" aria-label="Page 19"><img src="assets/page-18.webp?v=en1" width="800" height="1100" alt="BIECE, page 19" decoding="async" draggable="false"></article>
+        <article class="book-page" data-density="hard" aria-label="Back cover"><img src="assets/page-19.webp?v=en1" width="800" height="1100" alt="BIECE, back cover" decoding="async" draggable="false"></article>
       </div>
     </div>
   </section>
-  <footer class="reading-footer" aria-label="翻页控制">
-    <span class="book-note" aria-hidden="true"><span class="little-star">✳</span> 日常的另一页</span>
+  <footer class="reading-footer" aria-label="Page controls">
+    <span class="book-note" aria-hidden="true"><span class="little-star">✳</span> Another page of everyday life</span>
     <div class="controls">
-      <button id="previous" class="turn-button" type="button" aria-label="上一页" title="上一页"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7M7 12h13"/></svg></button>
-      <div class="status" aria-live="polite" aria-atomic="true"><span id="page-status">封面 · 01 / 20</span><small id="orientation">翻开看看</small></div>
-      <button id="next" class="turn-button" type="button" aria-label="下一页" title="下一页"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7M17 12H4"/></svg></button>
+      <button id="previous" class="turn-button" type="button" aria-label="Previous page" title="Previous page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 5-7 7 7 7M7 12h13"/></svg></button>
+      <div class="status" aria-live="polite" aria-atomic="true"><span id="page-status">Front · 01 / 20</span><small id="orientation">Open the book</small></div>
+      <button id="next" class="turn-button" type="button" aria-label="Next page" title="Next page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 5 7 7-7 7M17 12H4"/></svg></button>
     </div>
-    <p class="hint" id="reading-hint">轻触翻页，或按住页角拖动<span class="desktop-hint"><br>也可以使用键盘 ← →</span></p>
-    <div class="progress" id="book-progress" role="progressbar" aria-label="阅读进度" aria-valuemin="1" aria-valuemax="20" aria-valuenow="1"><span id="progress-fill"></span></div>
+    <p class="hint" id="reading-hint">Tap to turn, or drag a page corner<span class="desktop-hint"><br>Or use the ← → arrow keys</span></p>
+    <div class="progress" id="book-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="1" aria-valuemax="20" aria-valuenow="1"><span id="progress-fill"></span></div>
   </footer>
 </main>
 <p id="reader-message" class="reader-message" role="status" hidden></p>
-<noscript><p class="no-script">请开启浏览器的脚本功能，以翻阅这本画册。也可以<a href="book.pdf">阅读 PDF 版</a>。</p></noscript>
+<noscript><p class="no-script">Enable JavaScript to turn the pages, or <a href="book.pdf?v=en1">read the PDF edition</a>.</p></noscript>
 <script src="vendor/page-flip.browser.js"></script>
-<script src="flipbook.js"></script>
+<script src="flipbook.js?v=en1"></script>
 </body>
 </html>
 
